@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: blueviolet;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../imagem/mapa-mlred\.webp) no-repeat center center;
+  background-size: cover;
+}
+
+.container-form {
+  background-color: transparent;
+  width: 90vw;
+  height: 500px;
+  background-size: cover;
+}
+
+form i.material-symbols-outlined {
+  color: white;
+}
+
+#offcanvasWithBothOptions {
+  width: 70%;
+}
