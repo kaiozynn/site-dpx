@@ -3,9 +3,6 @@ const nextButton = document.getElementById('butNext');
 const prevButton = document.getElementById('butPrev');
 const inputPhone = document.getElementById('telefone');
 const formulario = document.getElementsByTagName('form')[0];
-const locationCanditar = document.querySelector('.candidatar');
-const locationPlayers = document.querySelector('.players');
-const locationLogin = document.querySelector('.login')
 var widthImage = imageContainer[0].clientWidth; //modifiquei de const para var pq é preciso reatribuir o valor
 
 let state = {
@@ -140,16 +137,10 @@ function candidatar() {
   window.open('candidatar/index.html', '_self')
 };
 
-locationCanditar.addEventListener('click', candidatar);
-
 function players() {
   window.open('http//127.0.0.1/site-dpx/players/', "_self")
 };
 
-locationPlayers.addEventListener('click', players);
-
 function login() {
   window.open('http//127.0.0.1/site-dpx/login/', '_self')
 };
-
-locationLogin.addEventListener('click', login)
