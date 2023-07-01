@@ -137,7 +137,7 @@ formulario.addEventListener('submit', function() {
 //Funções que permitem abrir outras páginas apartir dos cards.
 
 function candidatar() {
-  window.open('http//127.0.0.1/site-dpx/candidatar/', '_self')
+  window.open('candidatar/index.html', '_self')
 };
 
 locationCanditar.addEventListener('click', candidatar);
