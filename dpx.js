@@ -137,19 +137,19 @@ formulario.addEventListener('submit', function() {
 //Funções que permitem abrir outras páginas apartir dos cards.
 
 function candidatar() {
-  window.open('candidatar/index.html', '_blank')
+  window.open('http//127.0.0.1/site-dpx/candidatar/', '_self')
 };
 
 locationCanditar.addEventListener('click', candidatar);
 
 function players() {
-  window.open('players/index.html', "_blank")
+  window.open('http//127.0.0.1/site-dpx/players/', "_self")
 };
 
 locationPlayers.addEventListener('click', players);
 
 function login() {
-  window.open('login/index.html', '_parent')
+  window.open('http//127.0.0.1/site-dpx/login/', '_self')
 };
 
 locationLogin.addEventListener('click', login)
