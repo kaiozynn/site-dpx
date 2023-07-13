@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/*.php": {
+    "site-dpx": {
       "runtime": "vercel-php@0.6.0"
     }
   }
