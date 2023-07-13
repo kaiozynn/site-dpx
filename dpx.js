@@ -142,5 +142,5 @@ function players() {
 };
 
 function login() {
-  window.open('login/index.html', '_blank')
+  window.open('login', '_self')
 };
