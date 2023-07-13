@@ -138,9 +138,9 @@ function candidatar() {
 };
 
 function players() {
-  window.open('http//127.0.0.1/site-dpx/players/', "_self")
+  window.open('players', "_self")
 };
 
 function login() {
-  window.open('http//127.0.0.1/site-dpx/login/', '_self')
+  window.open('login/index.html', '_blank')
 };
