@@ -6,9 +6,6 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="index.php">
-    <label for="nickname"></label>
-    <input type="text" name="nickname" id="nickname">
-  </form>
+  
 </body>
 </html>

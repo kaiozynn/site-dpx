@@ -134,7 +134,7 @@ formulario.addEventListener('submit', function() {
 //Funções que permitem abrir outras páginas apartir dos cards.
 
 function candidatar() {
-  window.open('candidatar/index.html', '_blank')
+  window.open('candidatar', '_self')
 };
 
 function players() {
